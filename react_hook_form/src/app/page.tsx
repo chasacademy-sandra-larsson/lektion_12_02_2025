@@ -3,12 +3,14 @@
 import Image from "next/image";
 import MyForm from "./components/MyForm";
 import MyFormZod from "./components/MyFormZod";
+import MyFormShadcn from "./components/MyFormShad";
 
 export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen">
     {/* <MyForm/> */}
-    <MyFormZod/>
+    {/* <MyFormZod/> */}
+    <MyFormShadcn/>
     </div>
   );
 }
